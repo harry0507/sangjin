@@ -1,1 +1,37 @@
 안녕하세요
+
+내컴퓨터 : 로컬리포지터리
+깃허브 인터넷 : 
+원격지리포지터리/리모트리포지터리
+
+
+cmd 깃 명령 테스트
+git --version : 깃 버전 확인 
+
+환경설정 글로벌옵션으로 컴퓨터 전체에서 동일한 옵션 사용
+git config --global user.name 깃허브이름
+git config --global user.email 깃허브이메일
+
+폴더로 이동할때 cd 명령어 사용
+(체인지 디렉토리)
+cd C:\Git(이동할 폴더 이름)
+
+git clone Git https주소 (다운로드라고 생각하면 됨)
+
+C:\Git cd sangjin(Git사이트상 폴더이름)
+git add document.txt 파일 추가
+git commit -m "Add Text File [doument.txt]"
+커밋 스냅샷으로 찍어놓은 것처럼
+프로그램이 문제가 생겼을때 복구를 하는 등에 목적으로 사용가능. 커밋 메세지 
+
+git push 원격저장소(원격리포지토리)에 적용시킬 수 있음
+
+부트스트렙
+
+add commit (로컬 컴퓨터) push (깃) 순서
+다른사람이 수정한거 내 컴퓨터에 받는 순서
+fetch 충돌이 발생할경우 merge 하면 워킹디렉토리와 원격로지터리가 같아짐
+fetch + merge = full 
+
+.git 폴더 메타데이터 길 환경설정 들이 파일형태로 저장되어있음 헤시값 각종 데이터들 
+담겨져있음.
